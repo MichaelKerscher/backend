@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754409761",
+  "timestamp": "2025-08-05T18:02:41",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Dieses Gerät funktioniert nicht. Was könnte los sein?"
+  },
+  "response": {
+    "text": "Fehler bei der Bildanalyse: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Provided image is not valid.', 'status': 'INVALID_ARGUMENT'}}",
+    "tokens": 17
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 0.291
+  }
+}

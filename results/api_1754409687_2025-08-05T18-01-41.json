@@ -1,0 +1,21 @@
+{
+  "test_id": "api_1754409687",
+  "timestamp": "2025-08-05T18:01:41",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": [
+      "Erkläre kurz, wie ein Trafo funktioniert.",
+      "Du bist ein Technikexperte. Erkläre mir bitte, wie ein Transformator funktioniert."
+    ]
+  },
+  "response": {
+    "text": "Als Technikexperte erkläre ich dir das gerne ganz prägnant:\n\nEin Transformator (kurz \"Trafo\") ist ein **passives elektrisches Bauelement**, das die **Spannung und den Strom von Wechselstrom ändert**, ohne dabei die Frequenz zu verändern.\n\nSo funktioniert's im Kern:\n\n1.  **Wechselstrom rein:** Du legst eine Wechselspannung an die **Primärspule** des Trafos an. Da es Wechselstrom ist, erzeugt dieser ein **sich ständig änderndes Magnetfeld** um die Spule herum.\n\n2.  **Magnetfeld-Führung:** Die Primärspule ist um einen **Eisenkern** gewickelt (oft lamelliert, um Verluste zu minimieren). Dieser Eisenkern ist ein hervorragender Magnetleiter und **führt das sich ändernde Magnetfeld** konzentriert durch sich hindurch.\n\n3.  **Induktion in der Sekundärspule:** Auf der anderen Seite des Eisenkerns ist die **Sekundärspule** gewickelt. Da das vom Eisenkern geleitete Magnetfeld auch diese Spule durchdringt und sich ständig ändert, wird gemäß dem **Gesetz der elektromagnetischen Induktion** (Faraday'sches Induktionsgesetz) in der Sekundärspule eine **Spannung induziert**.\n\n4.  **Spannungsverhältnis durch Windungen:** Das Verhältnis der Windungszahlen der Primär- zur Sekundärspule (Anzahl der Wicklungen) bestimmt das Verhältnis der Spannungen:\n    *   Hat die Sekundärspule **mehr Windungen** als die Primärspule, wird die Spannung **hochtransformiert** (z.B. im Stromnetz).\n    *   Hat die Sekundärspule **weniger Windungen**, wird die Spannung **heruntertransformiert** (z.B. für Ladegeräte).\n\n5.  **Strom & Leistung:** Idealerweise bleibt die Leistung (Spannung mal Strom) im Trafo nahezu konstant. Das bedeutet:\n    *   Wird die Spannung hochtransformiert, sinkt der Strom entsprechend.\n    *   Wird die Spannung heruntertransformiert, steigt der Strom entsprechend.\n\n**Zusammengefasst:** Ein Trafo nutzt das Prinzip der **elektromagnetischen Induktion**, um Energie von einer Spule über ein wechselndes Magnetfeld auf eine andere Spule zu übertragen und dabei das Spannungs-Strom-Verhältnis zu ändern. Er ist ein Meister des \"Umsatzes\" von elektrischer Energie, ohne bewegliche Teile.",
+    "tokens": 266
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 14.135
+  }
+}

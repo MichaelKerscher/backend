@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754401943",
+  "timestamp": "2025-08-05T15:52:39",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": "Was ist künstliche Intelligenz und wie funktioniert sie in einfachen Worten?"
+  },
+  "response": {
+    "text": "Gerne erkläre ich dir künstliche Intelligenz (KI) in einfachen Worten:\n\n### Was ist Künstliche Intelligenz (KI)?\n\nStell dir vor, du könntest einem Computer beibringen, wie ein Mensch zu denken, zu lernen und Probleme zu lösen. Genau das ist im Grunde Künstliche Intelligenz.\n\n*   **KI ist der Versuch, Maschinen \"klug\" zu machen.** Es geht darum, dass Computer Aufgaben erledigen können, für die wir normalerweise menschliche Intelligenz benötigen.\n*   **Beispiele für solche Aufgaben:**\n    *   Dinge lernen (wie wir aus Erfahrungen lernen)\n    *   Sprache verstehen und sprechen (wie Siri oder Alexa)\n    *   Bilder und Gesichter erkennen\n    *   Entscheidungen treffen (z.B. welche Serie dir gefallen könnte)\n    *   Probleme lösen (wie Schach spielen oder Medikamente entwickeln)\n\nMan könnte sagen: KI ist eine Art **\"Gehirn für den Computer\"**, das ihm hilft, die Welt zu verstehen und darauf zu reagieren.\n\n### Wie funktioniert KI in einfachen Worten?\n\nKI funktioniert hauptsächlich durch **Lernen aus Daten** und das **Erkennen von Mustern**. Stell dir das so vor wie ein Kind, das lernt:\n\n1.  **Daten sammeln (Füttern der KI):**\n    *   Um etwas zu lernen, muss die KI zuerst mit riesigen Mengen an Informationen – sogenannten \"Daten\" – gefüttert werden. Das können Bilder, Texte, Töne, Zahlen oder andere Informationen sein.\n    *   **Beispiel:** Wenn du einer KI beibringen möchtest, Katzen zu erkennen, zeigst du ihr Millionen von Bildern – manche mit Katzen, manche ohne.\n\n2.  **Muster erkennen (Lernen):**\n    *   Die KI schaut sich diese Daten an und sucht darin nach Mustern und Zusammenhängen. Sie lernt daraus, welche Merkmale typisch für eine Katze sind (vier Beine, Fell, spitze Ohren, Schnurrhaare), und welche nicht.\n    *   **Wie?** Sie benutzt dafür spezielle \"Rezepte\" oder \"Anleitungen\", die man **Algorithmen** nennt. Diese Algorithmen sind wie eine Reihe von Schritten oder Regeln, die dem Computer sagen, wie er die Daten verarbeiten und analysieren soll.\n\n3.  **Vorhersagen/Entscheidungen treffen (Anwenden des Gelernten):**\n    *   Nachdem die KI genug gelernt hat, kann sie ihr Wissen anwenden. Zeigst du ihr nun ein neues Bild, das sie noch nie gesehen hat, kann sie mit hoher Wahrscheinlichkeit sagen: \"Das ist eine Katze\" oder \"Das ist keine Katze\", weil sie die gelernten Muster wiedererkennt.\n    *   **Je mehr Daten sie bekommt und je mehr sie \"übt\", desto besser und genauer wird die KI.**\n\n**Zusammengefasst:**\n\nKI ist wie ein sehr intelligentes Kind, das unglaublich schnell und effizient aus riesigen Mengen an \"Erfahrungen\" (Daten) lernt, um dann selbstständig neue Probleme zu lösen und Entscheidungen zu treffen. Sie versucht nicht, wie ein Mensch zu fühlen, sondern nur, seine intelligenten Fähigkeiten nachzuahmen und zu automatisieren.",
+    "tokens": 412
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 15.84
+  }
+}

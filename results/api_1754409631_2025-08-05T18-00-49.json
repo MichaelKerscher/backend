@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754409631",
+  "timestamp": "2025-08-05T18:00:49",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Ich bin im Heizraum. Was ist auf diesem Bild zu sehen?\n[Kontext: Standort: (47.858, 12.13); Zeit: 2025-07-30T15:00:00; Gerät: Pixel 7]"
+  },
+  "response": {
+    "text": "Basierend auf dem Bild befinden Sie sich **nicht in einem Heizraum**.\n\nAuf dem Bild ist eine **elektrische Schalt- oder Trafostation** zu sehen, die im Freien steht.\n\nHier ist eine detaillierte Beschreibung dessen, was auf dem Bild zu sehen ist:\n\n1.  **Die Struktur:** Es handelt sich um ein graues, robustes Gehäuse oder eine kleine begehbare Station, die offenbar dazu dient, elektrische Anlagen zu schützen. Die Vorderseite ist offen und gibt den Blick ins Innere frei.\n2.  **Innenansicht:**\n    *   Im Inneren befinden sich mehrere große, graue Schaltschränke oder Verteilerkästen.\n    *   Auf der linken Seite sind mehrere Panels übereinander angeordnet, auf denen man möglicherweise Steuer- oder Messinstrumente erkennen kann (einige Aufschriften wie \"Siemens\" sind angedeutet).\n    *   Deutlich sichtbar sind auf mehreren Schränken **gelbe Warnschilder mit einem schwarzen Blitzpfeil** und der Aufschrift \"**Hochspannung Lebensgefahr**\". Diese Warnungen sind ein klares Indiz für elektrische Hochspannungsanlagen.\n    *   Die Schränke sind teilweise mit Schlössern gesichert.\n    *   Im rechten Teil sind zwei große Doppeltüren zu sehen, ebenfalls mit den Hochspannungswarnungen.\n    *   Auf dem Boden im Inneren sind einige Kabel oder kleine Geräte sichtbar.\n3.  **Umgebung:**\n    *   Der Bereich direkt vor der Station ist mit grauen Pflastersteinen ausgelegt.\n    *   Im Hintergrund sind hohe, grüne Bäume und Sträucher zu sehen, was auf eine ländliche oder parkähnliche Umgebung hindeutet.\n    *   Das Foto wurde bei Tageslicht aufgenommen, wahrscheinlich bei Sonnenschein, da deutliche Schatten zu erkennen sind.\n\nZusammenfassend ist dies eine **elektrische Umspannstation oder eine Verteilerstation für Strom**, die zur Versorgung eines Bereichs mit Elektrizität dient, indem sie möglicherweise die Spannung anpasst oder den Strom verteilt. Es gibt keinerlei Anzeichen für Heizungsanlagen, Kessel oder Rohrleitungen, die typisch für einen Heizraum wären.",
+    "tokens": 267
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 18.346
+  }
+}

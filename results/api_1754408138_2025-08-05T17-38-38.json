@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754408138",
+  "timestamp": "2025-08-05T17:38:38",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "audio",
+    "prompt": "Um was geht es in der Audio?"
+  },
+  "response": {
+    "text": "Die Audioaufnahme ist eine Analyse von Unterlagen der FH Oberösterreich zum Thema **\"Menschliche Sinne und Wahrnehmung\"** mit Fokus auf praktische Anwendungen, insbesondere im Design von Interfaces und für das Lernen.\n\nDie Hauptthemen, die besprochen werden, sind:\n\n1.  **Das Human Factors Model (Mensch-Computer-Interaktion):** Es wird erklärt, wie Mensch und Computer über Schnittstellen interagieren, wobei der Informationsfluss in beide Richtungen geht (Gehirn steuert Computerelemente, Computer gibt Informationen zurück).\n\n2.  **Sehen:**\n    *   Warum wir im Zentrum schärfer und farbiger sehen (Verteilung von Stäbchen und Zapfen, besonders Zapfen in der Fovea).\n    *   Der Zusammenhang zwischen physikalischem Licht (Frequenz/Wellenlänge) und subjektiver Farbwahrnehmung.\n    *   Dass unser Sehen stärker auf **Kontraste und Unterschiede** reagiert als auf absolute Werte.\n    *   Wie Farbblindheit berücksichtigt werden kann (nicht nur Farbe, sondern auch Helligkeit, Sättigung, Formen, Muster nutzen).\n    *   Die Bedeutung des peripheren Sehens für Fehlermeldungen (müssen im Fokus erscheinen).\n    *   Wie visuelle Suche durch \"Pop-out-Effekte\" (Bewegung, Farbe, Fettdruck) erleichtert werden kann.\n    *   Die Mechanismen des Sehens: Fixationen (kurzes Innehalten) und Sakkaden (Blicksprünge) sowie deren Messung mit Heatmaps und Gaze Plots.\n    *   Die Funktionsweise moderner Eye-Tracker (PCOR-Methode).\n\n3.  **Hören:**\n    *   Der Zusammenhang zwischen physikalischen Eigenschaften (Frequenz, Intensität/Dezibel) und subjektiver Wahrnehmung (Tonhöhe, Lautheit).\n    *   Warum die Dezibelskala logarithmisch ist und unser Gehör Lautstärke logarithmisch wahrnimmt.\n    *   Die **Equal Loudness Contours** (Kurven gleicher Lautheit), die zeigen, dass tiefe Töne eine höhere physikalische Lautstärke (mehr dB) benötigen, um gleich laut zu wirken wie mittlere Töne.\n    *   Wie wir Geräusche orten (Zeitdifferenz, Intensitätsdifferenz zwischen den Ohren, Klangfärbung durch Kopf und Ohrmuscheln / HRTF).\n    *   Das Konzept der **Just Noticeable Difference (JND)** – die kleinste bemerkbare Unterschiedsschwelle.\n    *   Die **Frequenzmaskierung** (ein lauter Ton maskiert leisere, danebenliegende Töne), die bei Audiokompression (z.B. MP3) genutzt wird, um unhörbare Anteile zu entfernen.\n\n4.  **Gedächtnis:**\n    *   Der Unterschied zwischen Langzeitgedächtnis (LTM, großer Speicher, passiv) und Kurzzeitgedächtnis (STM/Arbeitsgedächtnis, aktiv, aber sehr begrenzte Kapazität von ca. 7 ± 2 Informationseinheiten).\n    *   Der Unterschied zwischen **Wiedererkennen (Recognition)**, das einfacher ist, und **Erinnern (Recall)**, das schwieriger ist.\n    *   Die wichtige Design-Folgerung aus der Begrenzung des Kurzzeitgedächtnisses: Design sollte das Wiedererkennen fördern, Informationen in kleine \"Häppchen\" (Chunks) unterteilen und die Gedächtnislast für den Nutzer reduzieren.\n\nDie Analyse betont durchgängig die Bedeutung dieser psychologischen und physiologischen Erkenntnisse für das **inklusive Design** und die **effektive Gestaltung von Informationen und Benutzeroberflächen**.",
+    "tokens": 373
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 179.793
+  }
+}

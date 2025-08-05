@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754408637",
+  "timestamp": "2025-08-05T17:44:05",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Was zeigt dieses Bild?\n[Kontext: Standort: (47.8571, 12.1285)]"
+  },
+  "response": {
+    "text": "Das Bild zeigt einen **Transformator** (auch Trafo genannt).\n\nEs ist ein elektronisches Bauteil, das Wechselspannung (AC) umwandelt, wie durch das \"AC ~\" Symbol angedeutet.",
+    "tokens": 24
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 7.892
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754409353",
+  "timestamp": "2025-08-05T17:56:04",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Analysiere diesen QR-Code und erkläre, wohin er führt."
+  },
+  "response": {
+    "text": "Ich habe den QR-Code analysiert.\n\nDer QR-Code führt zu der folgenden URL:\n\n**https://www.mainz.de/michelsberg**\n\nDies ist die offizielle Webseite der Stadt Mainz, spezifisch der Bereich über den Michelsberg.\n\nBasierend auf dem Schild, das \"Mehr Informationen\" anzeigt und dem weiblichen Symbol (♀), ist es sehr wahrscheinlich, dass die Seite weitere Details über den Michelsberg in Mainz bietet, möglicherweise im Zusammenhang mit seiner Geschichte, spezifischen Sehenswürdigkeiten, Natur oder einer Thematik, die mit Frauen verbunden ist (z.B. eine historische Persönlichkeit, eine Gedenkstätte oder ein Projekt dort). Um genaue Informationen zu erhalten, müsste man die Webseite besuchen.",
+    "tokens": 92
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 10.164
+  }
+}

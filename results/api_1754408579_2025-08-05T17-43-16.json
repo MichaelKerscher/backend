@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754408579",
+  "timestamp": "2025-08-05T17:43:16",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Dieses Bild zeigt ein Bauteil aus einem Schaltschrank. Was genau ist das und wofür wird es typischerweise verwendet?"
+  },
+  "response": {
+    "text": "Das Bauteil auf dem Bild ist ein **Steuertransformator** (oder auch **Trenntransformator**).\n\n**Was es genau ist:**\nEin Steuertransformator ist ein elektromagnetisches Bauteil, das Wechselspannung von einer Ebene auf eine andere umwandelt. Er besteht aus einem lamellierten Eisenkern, um den zwei oder mehr voneinander isolierte Spulen (Wicklungen) gewickelt sind: eine Primärwicklung (Eingangsseite) und eine Sekundärwicklung (Ausgangsseite). Das \"AC ~\" im Bild weist darauf hin, dass er für Wechselstrom (Alternating Current) ausgelegt ist.\n\n**Wofür er typischerweise verwendet wird (im Schaltschrank):**\n\n1.  **Spannungsanpassung / Reduzierung der Steuerspannung:**\n    *   Die Hauptanwendung im Schaltschrank ist die Herabsetzung der höheren Netzspannung (z.B. 400V oder 230V AC) auf eine niedrigere, sicherere und für die Steuerung gängige Betriebsspannung (z.B. 24V AC, 110V AC oder 230V AC, wenn die Netzspannung höher ist).\n    *   Viele Steuergeräte, Relais, Schütze, Meldeleuchten und andere Komponenten im Steuerkreis arbeiten mit diesen niedrigeren Spannungen.\n\n2.  **Galvanische Trennung / Erhöhung der Sicherheit (als Trenntransformator):**\n    *   Ein Steuertransformator trennt den Steuerkreis galvanisch vom Netz. Das bedeutet, es gibt keine direkte elektrische Verbindung zwischen der Primär- und Sekundärseite.\n    *   Dies erhöht die Sicherheit erheblich: Bei einem Fehler auf der Primärseite (z.B. Erdschluss) bleibt der Steuerkreis davon unbeeinflusst und es kann kein gefährlicher Stromschlag entstehen, wenn man Komponenten im Steuerkreis berührt. Das ist besonders wichtig für Bedienelemente wie Taster oder Not-Aus-Schalter.\n\n3.  **Reduzierung von Störungen:**\n    *   Durch die Trennwirkung kann ein Transformator auch dazu beitragen, elektrische Störungen und Rauschen aus dem Versorgungsnetz vom empfindlichen Steuerkreis fernzuhalten, was die Zuverlässigkeit der Steuerung verbessert.\n\n4.  **Lokale Energieversorgung:**\n    *   Er dient als dedizierte Stromquelle für alle AC-betriebenen Komponenten innerhalb des Steuerkreises eines Schaltschranks.",
+    "tokens": 260
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 17.112
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754406204",
+  "timestamp": "2025-08-05T17:03:33",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Was ist auf diesem Bild zu sehen?"
+  },
+  "response": {
+    "text": "Auf diesem Bild ist ein **elektrischer Transformator** zu sehen.\n\nEs handelt sich um einen Komponenten-Transformator mit sichtbaren Spulenwicklungen, einem Metallgehäuse und orangefarbenen Anschlussklemmen. Die Beschriftung \"AC ~\" weist darauf hin, dass er für Wechselstrom (Alternating Current) verwendet wird, typischerweise zum Anpassen von Spannungen (z.B. Hoch- oder Herunterregeln der Spannung).",
+    "tokens": 49
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 8.659
+  }
+}

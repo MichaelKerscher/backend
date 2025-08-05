@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754409445",
+  "timestamp": "2025-08-05T17:58:52",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "video",
+    "prompt": "Was passiert in diesem Video?"
+  },
+  "response": {
+    "text": "Das Video zeigt eine Szene an einem sandigen Strand.\n\nAm Anfang steht ein Mann mit grauem Pullover und schwarzem Rucksack im rechten Bildbereich am Rande des Wassers und blickt auf das Meer und einen langen Steg (Seebrücke) in der Ferne. Im Vordergrund, auf der linken Seite, ist eine Möwe auf dem Sand zu sehen.\n\nDie Kamera schwenkt langsam nach links, wobei der Mann allmählich aus dem Bild wandert. Die Möwe bewegt sich dabei ein paar Schritte auf dem Sand. Im weiteren Verlauf des Schwenks wird mehr vom Strand sichtbar, mit einigen Menschen, die sich dort aufhalten, sowie Gebäuden und Bäumen im Hintergrund. Der Himmel ist bewölkt.",
+    "tokens": 106
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 87.036
+  }
+}
