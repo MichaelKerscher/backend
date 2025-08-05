@@ -1,0 +1,9 @@
+# .gitignore
+
+# Ignore all JSON files recursively
+**/*.json 
+
+# Ignore service accounts or secrets
+.env
+service_account.json
+*.log
