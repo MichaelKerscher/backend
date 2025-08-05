@@ -1,3 +1,5 @@
+# lib/clients/gemini_client.py
+
 import os
 from dotenv import load_dotenv
 from google import genai

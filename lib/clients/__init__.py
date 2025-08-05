@@ -1,3 +1,5 @@
+# lib/clients/__init__.py
+
 from lib.clients import gemini_client
 # from lib.clients import openai_client  # später z. B. aktivieren
 
