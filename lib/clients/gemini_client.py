@@ -79,6 +79,8 @@ def generate(input_type: str, prompt: str, model: str = DEFAULT_MODEL, image_pat
         return generate_audio_understanding(prompt, audio_path, model, context)
     elif input_type == "video":
         return generate_video_understanding(prompt, video_path, model, context)
+    elif input_type == "multimodal":
+        return generate_multimodal(prompt, image_path, video_path, model, context)
     else:
         raise NotImplementedError(f"Input-Typ '{input_type}' ist in Gemini-Client noch nicht implementiert.")
 
@@ -174,4 +176,30 @@ def generate_video_understanding(prompt: str, video_path: str, model: str = DEFA
         return response.text
     except Exception as e:
         return f"Fehler bei der Videoanalyse: {e}"
-    
+
+# --------------------------------
+# Multimodal
+# --------------------------------
+def generate_multimodal(prompt: str, image_path: str = None, video_path: str = None, model: str = DEFAULT_MODEL, context: dict = None) -> str:
+    parts = [append_context_to_prompt(prompt, context)]
+
+    if image_path and os.path.isfile(image_path):
+        with open(image_path, "rb") as image_file:
+            image_part = Part.from_bytes(data=image_file.read(), mime_type="image/jpeg")
+        parts.append(image_part)
+
+    if video_path and os.path.isfile(video_path):
+        with open(video_path, "rb") as video_file:
+            video_part = Part.from_bytes(data=video_file.read(), mime_type="video/mp4")
+        parts.append(video_part)
+
+    try:
+        response = client.models.generate_content(
+            model=model,
+            contents=parts
+        )
+        return response.text
+    except Exception as e:
+        return f"Fehler bei der Multimodalverarbeitung: {e}"
+
+

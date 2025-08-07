@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754552581",
+  "timestamp": "2025-08-07T09:44:26",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "video",
+    "prompt": "Ich dokumentiere gerade die Störung im Serverraum. Hier ist ein Foto und ein kurzes Video. Was könnte das Problem sein?\n[Kontext: Standort: (47.8565, 12.126); Zeit: 2025-07-30T19:45:00; Gerät: Pixel 7 Pro; Netzwerkstatus: 4G]"
+  },
+  "response": {
+    "text": "Vielen Dank für das Hochladen des Fotos und Videos.\n\nBasierend auf den von Ihnen bereitgestellten Medien (Foto und Video) sehe ich eine **Strandszene** mit Sand, Meer, Gebäuden im Hintergrund und Menschen (darunter ein Mann mit Rucksack und eine Möwe).\n\n**Es sind keine Anzeichen eines Serverraums oder technischer Geräte erkennbar.**\n\nDaher kann ich anhand dieser Bilder leider keine Diagnose für eine Störung in einem Serverraum stellen.\n\nBitte stellen Sie sicher, dass Sie die korrekten Aufnahmen des Serverraums hochladen, damit ich Ihnen weiterhelfen kann. Falls dies ein Missverständnis war und Sie die Strandszene kommentieren wollten, lassen Sie mich das wissen!",
+    "tokens": 98
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 84.564
+  }
+}
