@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754558606",
+  "timestamp": "2025-08-07T11:23:28",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": "hi, wie geht's?"
+  },
+  "response": {
+    "text": "Hallo! Mir geht's gut, danke der Nachfrage.\n\nUnd dir/Ihnen?",
+    "tokens": 9
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 2.062
+  }
+}
