@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754573900",
+  "timestamp": "2025-08-07T15:38:34",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Was zeigt dieses Bild?\n[Kontext: Standort: (48.6462554, 12.3242899)]"
+  },
+  "response": {
+    "text": "Das Bild zeigt hauptsächlich ein Buch mit dem Titel \"**AI Ethics & Human Factors in AI**\" von Martina Gaisch und Isabella Mader. Es ist Teil der Reihe \"NEXT GENERATION DIGITAL\" und eine \"Excellence Edition\".\n\nDas Buch liegt auf einem Holztisch, und sein Cover zeigt farbenfrohe, abstrakte Darstellungen von Gesichtern, die mit futuristischen Netzwerklinien verbunden sind.\n\nDaneben sind weitere Gegenstände auf dem Tisch zu sehen:\n*   Links vom Buch befindet sich eine schwarze Tastatur (vermutlich eines Lenovo-Laptops, da das Lenovo-Logo erkennbar ist).\n*   Oben links liegen ein grünes Tuch und ein kleiner, heller Stein.\n*   Unten links ist ein transparenter Acryl-Ständer erkennbar.\n\nEs handelt sich um eine Szene, die einen Schreibtisch oder Arbeitsplatz darstellt.",
+    "tokens": 113
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 14.343
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1754574141",
+  "timestamp": "2025-08-07T15:42:29",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": "Um was geht es in der Audio?\n[Kontext: Standort: (48.6463107, 12.323515)]"
+  },
+  "response": {
+    "text": "Ich habe leider keine Audio-Datei vorliegen, die ich analysieren könnte. Daher kann ich dir leider nicht sagen, worum es in der Audio geht.\n\nDie angegebenen Koordinaten (48.6463107, 12.323515) liegen in Deutschland, genauer gesagt in Niederbayern, in der Nähe von Arnstorf. Vielleicht handelt die Audio ja von dieser Gegend oder wurde dort aufgenommen?\n\nWenn du die Audio-Datei hochlädst, kann ich versuchen, den Inhalt zu analysieren.",
+    "tokens": 64
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 8.244
+  }
+}
