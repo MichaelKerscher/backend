@@ -50,7 +50,7 @@ def process_generation_request(
             if filename.lower().endswith((".jpg", ".jpeg", ".png")):
                 input_data["type"] = "image"
                 input_data["image_path"] = tmp_path
-            elif filename.lower().endswith((".wav", ".mp3")):
+            elif filename.lower().endswith((".wav", ".mp3", ".aac")):
                 input_data["type"] = "audio"
                 input_data["audio_path"] = tmp_path
             elif filename.lower().endswith(".mp4"):

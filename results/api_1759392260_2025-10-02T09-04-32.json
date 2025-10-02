@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1759392260",
+  "timestamp": "2025-10-02T09:04:32",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Dieses Bild zeigt eine private Heizungsanlage. Welche Hauptkomponenten sind hier sichtbar und welche Funktion haben sie typischerweise?\n[Kontext: Standort: (52.247503, -7.0726193)]"
+  },
+  "response": {
+    "text": "Dieses Bild zeigt eine typische Ölzentralheizungsanlage. Hier sind die Hauptkomponenten, die sichtbar sind, und ihre typischen Funktionen:\n\n1.  **Heizkessel (der große rote Kasten):**\n    *   **Funktion:** Dies ist das Herzstück der Heizungsanlage. Im Heizkessel wird das Heizwasser durch die Verbrennung von Heizöl erwärmt. Dieses heiße Wasser wird dann durch das Heizsystem (Heizkörper, Fußbodenheizung) gepumpt, um die Räume zu beheizen, und kann auch zur Erwärmung von Brauchwasser dienen.\n\n2.  **Ölbrenner (die kleinere Einheit vorne unten, rot-schwarz, mit \"RIELLO RDB\" beschriftet):**\n    *   **Funktion:** Der Ölbrenner ist direkt am Heizkessel montiert. Seine Aufgabe ist es, Heizöl zu zerstäuben, mit Luft zu mischen und zu entzünden, um eine Flamme zu erzeugen. Diese Flamme gibt ihre Wärmeenergie an den Wärmetauscher im Heizkessel ab, wodurch das Heizwasser erwärmt wird. \"RIELLO RDB\" ist eine sehr verbreitete Modellreihe für Ölheizungsbrenner.\n\n3.  **Abgasrohr / Kaminanschluss (das silberne Rohr, das vom Kessel nach oben führt):**\n    *   **Funktion:** Dieses Rohr leitet die bei der Verbrennung entstehenden Abgase sicher aus dem Gebäude in den Schornstein oder direkt ins Freie ab. Es sorgt dafür, dass schädliche Verbrennungsprodukte nicht in den Wohnraum gelangen.\n\n4.  **Umwälzpumpe (der weiße Kasten auf dem Kessel, mit Kabeln und Drehregler):**\n    *   **Funktion:** Die Umwälzpumpe ist dafür verantwortlich, das im Kessel erwärmte Heizwasser durch den Heizkreislauf (zu den Heizkörpern oder zur Fußbodenheizung) zu pumpen und das abgekühlte Wasser zurück zum Kessel zu befördern. Der Drehregler könnte zur Einstellung der Förderleistung dienen.\n\n5.  **Sicherheitsventile und Entlüfter (die messingfarbenen Armaturen oben am Kessel und an den Rohren):**\n    *   **Funktion:**\n        *   **Sicherheitsventile:** Lassen bei zu hohem Druck im System automatisch Wasser ab, um Schäden am Kessel oder den Rohren zu verhindern.\n        *   **Automatische Entlüfter:** Befinden sich oft an den höchsten Punkten des Systems und lassen automatisch Luft entweichen, die sich im Heizwasser ansammeln kann und sonst die Zirkulation stören würde.\n\n6.  **Heizungsrohre (die isolierten schwarzen Rohre und die Kupferrohre):**\n    *   **Funktion:** Transportieren das Heizwasser vom Kessel zu den Heizflächen (Vorlauf) und das abgekühlte Wasser zurück zum Kessel (Rücklauf). Die schwarze Isolierung dient dazu, Wärmeverluste auf dem Weg zu minimieren.\n\nInsgesamt handelt es sich um eine kompakte Einheit zur Wärmeerzeugung für ein Einfamilienhaus oder eine ähnliche private Nutzung, die mit Heizöl betrieben wird.",
+    "tokens": 358
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 11.677
+  }
+}

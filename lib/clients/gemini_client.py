@@ -38,10 +38,17 @@ DEFAULT_MODEL = "gemini-2.5-flash"
 # --------------------------------
 def append_context_to_prompt(prompt: str, context: dict | None) -> str:
     """Ergänzt das Prompt um optionale Kontextinformationen."""
+    
+    # Falls None -> leeren String setzen
+    if not prompt:
+        prompt = ""
+
+    # Falls kein Kontext -> direkt Prompt zurückgeben
     if not context:
         return prompt
 
     parts = []
+    
     # Standort
     if "location" in context and "lat" in context["location"] and "lon" in context["location"]:
         lat = context["location"]["lat"]
@@ -134,9 +141,16 @@ def generate_audio_understanding(prompt: str, audio_path: str, model: str = DEFA
     
     try:
         with open(audio_path, "rb") as audio_file:
+            mime_type = "audio/wav"
+
+            if audio_path.lower().endswith(".aac"):
+                mime_type = "audio/x-aac"
+            elif audio_path.lower().endswith(".mp3"):
+                mime_type = "audio/mp3"
+
             audio_part = Part.from_bytes(
                 data=audio_file.read(),
-                mime_type="audio/wav" 
+                mime_type=mime_type 
             )
 
         prompt_with_context = append_context_to_prompt(prompt, context)

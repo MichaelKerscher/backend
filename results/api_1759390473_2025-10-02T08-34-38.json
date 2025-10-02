@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1759390473",
+  "timestamp": "2025-10-02T08:34:38",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "audio",
+    "prompt": "um was geht es in der audio?\n[Kontext: Standort: (52.2474273, -7.0725014)]"
+  },
+  "response": {
+    "text": "In der Audio stellt sich der Sprecher als Erasmus-Student vor, der sein Auslandssemester in Waterford, Irland, an der South East Technological University of Ireland verbringt.",
+    "tokens": 25
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 5.203
+  }
+}
