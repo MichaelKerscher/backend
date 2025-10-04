@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1759393047",
+  "timestamp": "2025-10-02T09:17:37",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Was zeigt dieses Bild?\n[Kontext: Standort: (52.247503, -7.0726193)]"
+  },
+  "response": {
+    "text": "Das Bild zeigt eine **Ölheizungsanlage**, wahrscheinlich in einem Technikraum, Keller oder Hauswirtschaftsraum.\n\nHier sind die Details:\n*   **Heizkessel:** Der zentrale Bestandteil ist ein großer, roter, kastenförmiger Heizkessel.\n*   **Ölbrenner:** Unten links am Kessel ist ein separater Brenner angebracht, auf dem deutlich \"RIELLO RDB\" zu lesen ist. Riello RDB ist ein gängiges Modell für Ölbrenner. Dieser Brenner ist für die Erzeugung der Wärme im Kessel zuständig.\n*   **Rohrleitungen:**\n    *   Oben am Kessel sind schwarze, isolierte Rohre angeschlossen, die wahrscheinlich die Vor- und Rücklaufleitungen der Heizungsanlage sind.\n    *   Daneben befinden sich Kupferrohre mit Messingarmaturen und Ventilen, die für die Wasserversorgung, Warmwasserbereitung oder als Sicherheitsventile dienen könnten.\n    *   Ein glänzendes silbernes Rohr führt vertikal nach oben, was das Abgasrohr oder der Schornstein für die Abgase des Brenners ist.\n*   **Steuereinheit:** Auf der Oberseite des Kessels ist eine weiße Steuereinheit mit einem Drehregler und einem Knopf montiert, die wahrscheinlich zur Regelung der Kesseltemperatur oder Betriebsmodi dient.\n*   **Elektrische Verkabelung:** Mehrere orangefarbene und schwarze elektrische Kabel sind sichtbar, die die Komponenten miteinander verbinden und mit Strom versorgen.\n*   **Umgebung:** Die Anlage steht auf einem Betonboden vor einer Wand aus Betonblöcken, was typisch für einen Versorgungsraum ist.\n\nZusammenfassend ist es eine komplette Einheit für eine zentrale Ölheizung.",
+    "tokens": 201
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 10.447
+  }
+}

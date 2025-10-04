@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1759574055",
+  "timestamp": "2025-10-04T11:34:21",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Analysiere diesen QR-Code und erkläre, wohin er führt.\n[Kontext: Standort: (52.2474199, -7.0724912); Zeit: 2025-10-04T11:34:14.896432; Gerät: samsung SM-A556B; Netzwerkstatus: Wifi]"
+  },
+  "response": {
+    "text": "Der QR-Code enthält den folgenden Link:\n\n`https://link.zli.app/r/aM4rY`\n\nDieser Link führt zu einem Dienst, der wahrscheinlich für die Verwaltung oder Weiterleitung von QR-Code-basierten Links zuständig ist, erkennbar an der Domain `link.zli.app`.\n\nUm das endgültige Ziel des Links herauszufinden, müsste man ihn in einem Browser öffnen. Es könnte sich um eine Webseite, eine App-Download-Seite oder andere Online-Inhalte handeln. Seien Sie jedoch vorsichtig beim Öffnen unbekannter Links.",
+    "tokens": 64
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 6.434
+  }
+}

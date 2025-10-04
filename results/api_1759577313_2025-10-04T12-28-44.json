@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1759577313",
+  "timestamp": "2025-10-04T12:28:44",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "image",
+    "prompt": "Ich bin im Wasserwerk. Was ist auf diesem Bild zu sehen?\n[Kontext: Standort: (52.2474262, -7.0724944); Zeit: 2025-10-04T12:28:32.694596; Gerät: samsung SM-A556B; Netzwerkstatus: Wifi]"
+  },
+  "response": {
+    "text": "Das Bild zeigt einen Innenraum, der wie ein Technikraum, Heizungsraum oder eine Art Abstellraum aussieht.\n\nTrotz Ihrer Aussage, im Wasserwerk zu sein, erinnert die gezeigte Ausstattung eher an eine Heizungsanlage für ein Gebäude als an ein typisches Wasserwerk.\n\nHier ist eine detaillierte Beschreibung der Elemente im Bild:\n\n1.  **Wände und Boden:** Die Wände bestehen aus unbehandelten Betonblöcken und der Boden ist ein Betonboden. An den Wänden sind stellenweise Verfärbungen und Schmutzspuren zu sehen, was auf Feuchtigkeit oder altersbedingte Abnutzung hindeuten könnte.\n2.  **Heizanlage:** In der linken Bildhälfte dominiert eine große, rote Heizanlage, wahrscheinlich ein Ölkessel.\n    *   Darunter ist ein schwarzer Ölbrenner angebracht, auf dem der Schriftzug \"RIELLO\" zu erkennen ist.\n    *   Von der Heizungsanlage führt ein glänzendes, vertikales Metallrohr (vermutlich ein Kamin- oder Abgasrohr) nach oben durch die Decke.\n    *   Mehrere Rohre, darunter isolierte schwarze Leitungen und Kupferleitungen mit Ventilen, sind mit der Heizanlage verbunden.\n    *   Oben auf dem roten Kessel befindet sich ein kleines weißes Gehäuse mit Verkabelung.\n    *   Ein orangefarbenes Kabel läuft von der Anlage.\n3.  **Gefriertruhe:** Rechts neben der Heizanlage steht eine weiße Gefriertruhe, die auf einigen Unterlagen leicht erhöht ist. Auf der Vorderseite der Gefriertruhe ist ein schwarzer Aufkleber mit weißer Schrift zu sehen, der unter anderem \"FREE 2 YEAR WARRANTY\" enthält.\n4.  **Elektrische Installationen:** An der Wand über der Gefriertruhe ist eine weiße Doppelsteckdose angebracht. Ein Stecker und ein Kabel, das wahrscheinlich zur Gefriertruhe gehört, sind in der Nähe sichtbar.\n5.  **Sonstiges:** Im Vordergrund rechts ist der untere Teil einer Leiter oder Trittleiter zu erkennen. Der Raum wirkt insgesamt funktional und nicht für den Publikumsverkehr gedacht. Die Beleuchtung ist hell, vermutlich durch eine Lichtquelle außerhalb des Bildausschnitts oder eine Deckenleuchte.",
+    "tokens": 275
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 11.52
+  }
+}

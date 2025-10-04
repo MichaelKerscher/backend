@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1759576824",
+  "timestamp": "2025-10-04T12:20:57",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "video",
+    "prompt": "Was passiert in diesem Video?\n[Kontext: Standort: (52.2474507, -7.0725649); Zeit: 2025-10-04T12:20:15.446789; Gerät: samsung SM-A556B; Netzwerkstatus: Wifi]"
+  },
+  "response": {
+    "text": "Das Video zeigt eine Person, die einen Abstellraum oder Schuppen öffnet und dessen Inhalt filmt.\n\nHier ist eine detaillierte Beschreibung des Ablaufs:\n\n1.  **0:00-0:02**: Das Video beginnt mit einer Außenaufnahme eines Gartens. Man sieht eine Rasenfläche, Bäume, eine Wäschespinne und eine gepflasterte Terrasse. Im Vordergrund ist ein hölzernes Terrassendach oder eine Pergola zu erkennen.\n2.  **0:02-0:05**: Die Kamera schwenkt nach rechts zu einer weißen Hauswand. Dort sind ein Lüftungsgitter und einige Topfpflanzen zu sehen. Der Schwenk geht weiter nach unten zu einer hellblauen Holztür oder Luke, die sich am unteren Teil der Wand befindet.\n3.  **0:05-0:07**: Die Kamera zoomt auf die Luke, die mit einem rostigen Riegel verschlossen ist. Eine Hand entriegelt die Luke und öffnet sie.\n4.  **0:07-0:10**: Die Kamera blickt in den geöffneten Raum. Man sieht das Innere der Holzkonstruktion und verschiedene Gartengeräte (Schaufeln, Spaten), die an der Wand hängen.\n5.  **0:10-0:14**: Die Kamera schwenkt weiter in den Raum hinein und nach unten. Es sind eine weiße Gefriertruhe, die an der Wand steht und an einer Steckdose angeschlossen ist, sowie ein rotes Gerät (möglicherweise eine Ölheizung oder ein Warmwasserbereiter) mit Rohren am Boden zu sehen. Über der Gefriertruhe ist eine Leiter verstaut.\n6.  **0:14-0:18**: Die Kamera schwenkt wieder nach oben und filmt die Leiter, die Werkzeuge und die Deckenkonstruktion des Schuppens/Raumes. An den Holzbalken sind auch Spinnweben und eine Spinne zu erkennen.\n7.  **0:18-0:24**: Die Kamera fährt zurück zur Öffnung der Luke. Der Filmer schließt die hellblaue Holzluke wieder und verriegelt sie mit dem Riegel. Das Video endet mit der geschlossenen und verriegelten Luke.",
+    "tokens": 256
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 32.791
+  }
+}

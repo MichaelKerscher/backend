@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1759577837",
+  "timestamp": "2025-10-04T12:37:55",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "video",
+    "prompt": "Ich dokumentiere gerade die Störung im Heizungsraum. Hier ist ein Foto und ein kurzes Video. Was könnte das Problem sein?\n[Kontext: Standort: (52.2474605, -7.0725286); Zeit: 2025-10-04T12:36:37.252835; Gerät: samsung SM-A556B; Netzwerkstatus: Wifi]"
+  },
+  "response": {
+    "text": "Vielen Dank für das Foto und das Video.\n\nDas Geräusch, das am Ende des Videos (ab ca. 0:29) zu hören ist, klingt nach einem **hohen Pfeifen, Quietschen oder Schleifen**, das von einem rotierenden Bauteil der Heizungsanlage kommen könnte. Da Sie die Störung im Heizungsraum dokumentieren und das Geräusch beim Blick auf die rote Heizungsanlage auftritt, ist es sehr wahrscheinlich, dass es von dort stammt.\n\n**Mögliche Ursachen für ein solches Geräusch an einer Heizungsanlage sind oft:**\n\n1.  **Defekte Umwälzpumpe:** Dies ist eine sehr häufige Ursache für quietschende oder schleifende Geräusche. Die Lager der Pumpe können verschlissen sein, oder es befindet sich Luft in der Pumpe, die sie unrund laufen lässt.\n2.  **Abgasventilator / Gebläse:** Moderne Heizkessel haben oft einen Ventilator, der die Abgase abführt oder für die richtige Verbrennungsluftzufuhr sorgt. Auch hier können verschlissene Lager oder eine Unwucht zu solchen Geräuschen führen.\n3.  **Luft im Heizsystem:** Manchmal kann auch einfach Luft in den Rohren oder in der Pumpe solche Geräusche verursachen, die einem Pfeifen ähneln.\n4.  **Verschmutzung/Verstopfung:** Eine leichte Verstopfung in einem Rohr oder einer Komponente kann den Wasserfluss stören und ebenfalls ungewöhnliche Geräusche hervorrufen.\n\n**Um das Problem besser einzugrenzen, wären folgende Informationen hilfreich:**\n\n*   **Wann tritt das Geräusch auf?** Nur wenn die Heizung heizt? Permanent? Nur beim Starten der Heizung?\n*   **Haben Sie andere Symptome bemerkt?** Wird die Heizung nicht warm? Geht der Druck im System zurück? Gibt es Fehlermeldungen am Display der Heizung (falls vorhanden, ist auf dem roten Kessel jedoch keines zu sehen, möglicherweise an der weißen Box darüber)?\n*   **Ist die Heizungswartung regelmäßig erfolgt?**\n\n**Wichtiger Hinweis:** Bei ungewöhnlichen Geräuschen an einer Heizungsanlage, insbesondere wenn sie neu sind oder lauter werden, ist es ratsam, **einen qualifizierten Heizungsinstallateur oder Servicetechniker zu kontaktieren**. Eine defekte Komponente kann zu weiteren Schäden oder einem Ausfall der Heizung führen.\n\nAufgrund des spezifischen Geräuschs würde ich primär auf ein Problem mit der Umwälzpumpe oder dem Abgasventilator tippen. Ein Fachmann kann dies vor Ort genau diagnostizieren.",
+    "tokens": 321
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 37.481
+  }
+}
