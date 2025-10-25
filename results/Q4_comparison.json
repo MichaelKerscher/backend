@@ -1,0 +1,26 @@
+{
+  "id": "Q4",
+  "query": "Welche Fehlercodes sind in der Vorfallsliste 2025 aufgeführt?",
+  "baseline_response": {
+    "test_id": "api_1761411198",
+    "timestamp": "2025-10-25T17:53:52",
+    "model": "gemini-2.5-flash",
+    "client": "gemini",
+    "input": {
+      "type": "text",
+      "prompt": "Welche Fehlercodes sind in der Vorfallsliste 2025 aufgeführt?"
+    },
+    "response": {
+      "text": "Als KI habe ich keinen Zugriff auf spezifische interne oder zukünftige Dokumente wie eine \"Vorfallsliste 2025\".\n\nDiese Liste ist wahrscheinlich ein internes Dokument Ihres Unternehmens oder Ihrer Organisation. Um die Fehlercodes aus dieser Liste zu erfahren, müssten Sie:\n\n1.  **Die tatsächliche \"Vorfallsliste 2025\" einsehen.**\n2.  **Sich an die zuständige Abteilung** (z.B. IT, Operations, Qualitätsmanagement) wenden, die diese Liste führt oder Zugriff darauf hat.\n\nOhne Kenntnis des spezifischen Dokuments kann ich Ihnen diese Informationen leider nicht geben.",
+      "tokens": 76
+    },
+    "meta": {
+      "status": "success",
+      "runtime_seconds": 33.966
+    }
+  },
+  "rag_response": "Als KI habe ich keinen Zugriff auf spezifische, zukünftige oder interne Dokumente wie eine \"Vorfallsliste 2025\". Meine Informationen basieren auf den Daten, mit denen ich trainiert wurde, und diese haben einen Stichtag (meist bis Anfang 2023).\n\nUm Ihnen die Fehlercodes nennen zu können, müsste ich Zugang zu dieser Liste haben.\n\nWenn Sie mir den Inhalt der \"Vorfallsliste 2025\" zur Verfügung stellen (z.B. durch Kopieren und Einfügen des Textes), kann ich die Fehlercodes für Sie identifizieren.\n\nAlternativ, um welche Art von Vorfallsliste handelt es sich? Betrifft sie ein bestimmtes System, eine Software oder ein Gerät? Manchmal gibt es generische Fehlercodes für bestimmte Kategorien, die ich kennen könnte, wenn Sie mehr Kontext geben.",
+  "baseline_latency": 34.031,
+  "rag_latency": 31.114,
+  "timestamp": "2025-10-25T17:54:23.612130"
+}

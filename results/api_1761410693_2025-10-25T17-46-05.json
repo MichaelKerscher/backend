@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1761410693",
+  "timestamp": "2025-10-25T17:46:05",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": "Wie soll laut Notfallprozedur bei einem Gasleck vorgegangen werden?"
+  },
+  "response": {
+    "text": "Ein Gasleck ist eine ernste Gefahr, die schnell und besonnenes Handeln erfordert. Hier ist die Notfallprozedur, wie sie in den meisten Fällen empfohlen wird:\n\n**Wichtige Vorab-Information:** Wenn Sie Gas riechen (oft ein Geruch nach faulen Eiern oder Schwefel) oder ein Zischen hören, handeln Sie sofort!\n\n---\n\n**Notfallprozedur bei einem Gasleck:**\n\n**1. Ruhe bewahren und sofort handeln:**\n   *   **Keine Panik!** Dies ist der wichtigste erste Schritt.\n\n**2. Keine Zündquellen aktivieren:**\n   *   **Betätigen Sie keine Lichtschalter.**\n   *   **Schalten Sie keine elektrischen Geräte ein oder aus.**\n   *   **Ziehen Sie keine Stecker aus der Steckdose.**\n   *   **Benutzen Sie keine Mobiltelefone oder Festnetztelefone im Gebäude.**\n   *   **Zünden Sie keine Kerzen, Feuerzeuge oder Streichhölzer an.**\n   *   **Betätigen Sie keine Klingel.**\n   *   **Vermeiden Sie alles, was einen Funken erzeugen könnte.**\n\n**3. Fenster und Türen öffnen (falls gefahrlos möglich):**\n   *   Sorgen Sie für maximale Querlüftung, indem Sie Fenster und Türen weit öffnen, um das Gas zu verdünnen und nach außen zu leiten.\n\n**4. Gashaupthahn schließen (falls gefahrlos möglich und bekannt):**\n   *   Wenn Sie wissen, wo sich der Gashaupthahn befindet und ihn gefahrlos erreichen können, schließen Sie ihn, um die Gaszufuhr zu unterbrechen.\n\n**5. Gebäude sofort verlassen:**\n   *   Verlassen Sie das Gebäude umgehend und zügig. Warnen Sie andere Personen im Gebäude, aber ohne wertvolle Zeit zu verlieren oder selbst in Gefahr zu geraten.\n   *   Helfen Sie gegebenenfalls hilfsbedürftigen Personen.\n   *   Nehmen Sie keine persönlichen Gegenstände mit, die Sie nicht sofort greifen können.\n\n**6. Sicherheitsabstand einhalten:**\n   *   Begeben Sie sich in sicherer Entfernung vom Gebäude (mindestens 50-100 Meter), am besten windaufwärts.\n   *   Halten Sie auch andere Personen davon ab, sich dem Gebäude zu nähern.\n\n**7. Notruf absetzen (von sicherer Entfernung):**\n   *   **Rufen Sie die Feuerwehr (112)** an.\n   *   **Informieren Sie Ihren Gasversorger** über dessen Störungsdienst-Hotline (die Nummer finden Sie oft auf Ihrer Gasrechnung oder im Internet).\n   *   Geben Sie die genaue Adresse, die Art des Notfalls (Gasgeruch, Gasleck) und Ihren Namen an.\n\n**8. Auf Rettungskräfte warten:**\n   *   Warten Sie in sicherer Entfernung auf das Eintreffen der Feuerwehr und des Gasversorgers.\n   *   Folgen Sie deren Anweisungen genau.\n   *   Betreten Sie das Gebäude auf keinen Fall wieder, bevor es von den Einsatzkräften freigegeben wurde.\n\n---\n\n**Zusammenfassung der wichtigsten DON'TS:**\n*   **Keine Flammen, kein Funken, kein Strom an/aus.**\n*   **Keine Geräte im Gebäude benutzen (Handy, Lichtschalter, Klingel).**\n*   **Nicht im Gebäude nach der Ursache suchen.**\n*   **Nicht wieder ins Gebäude gehen, bevor es freigegeben ist.**\n\nEin Gasleck ist extrem gefährlich wegen der Explosionsgefahr und der Erstickungsgeahr (bei hoher Konzentration). Schnelles, besonnenes und korrektes Handeln rettet Leben!",
+    "tokens": 413
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 71.885
+  }
+}

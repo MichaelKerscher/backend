@@ -3,6 +3,7 @@ from fastapi import APIRouter, Form, UploadFile, File
 from typing import List, Optional
 import json
 from core.service import process_generation_request
+from core.rag_service import query_rag_engine
 
 router = APIRouter()
 
@@ -50,3 +51,24 @@ async def generate_response(
         "status": "success",
         "response": result
     }
+
+@router.post("/rag_query")
+async def rag_query(payload: dict):
+    """
+    Calls the Vertex AI RAG Engine and returns the grounded response.
+    Example:
+      {"query": "Wie wird bei einem Gasleck laut Notfallprozedur reagiert?"}
+    """
+    try:
+        query = payload.get("query")
+        if not query:
+            return {"status": "error", "message": "Missing field 'query'"}
+
+        response_text = query_rag_engine(query)
+        return {
+            "status": "success",
+            "query": query,
+            "response": response_text
+        }
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
