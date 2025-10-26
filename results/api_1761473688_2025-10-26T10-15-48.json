@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1761473688",
+  "timestamp": "2025-10-26T10:15:48",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": "Wie soll laut Notfallprozedur bei einem Gasleck vorgegangen werden?"
+  },
+  "response": {
+    "text": "Bei einem Gasleck ist schnelles und korrektes Handeln entscheidend, um Gefahren wie Explosionen oder Vergiftungen zu vermeiden. Hier ist die Notfallprozedur:\n\n**1. Ruhe bewahren und Gefahr erkennen:**\n*   **Nehmen Sie den Geruch wahr?** Erdgas ist geruchlos, daher wird ein Geruchsstoff (oft wie faulige Eier oder Schwefel) beigemischt, um Lecks zu erkennen.\n*   **Hören Sie ein Zischen?** Dies kann ein Zeichen für ein größeres Leck sein.\n\n**2. Sofortige Maßnahmen – KEINE ZÜNDQUELLEN ERZEUGEN!**\n*   **Keine elektrischen Geräte betätigen:** Schalten Sie keine Lichtschalter an oder aus, ziehen Sie keine Stecker, bedienen Sie keine Elektrogeräte. Auch Türklingeln oder Garagentoröffner können Funken erzeugen.\n*   **Kein offenes Feuer:** Nicht rauchen, keine Feuerzeuge oder Streichhölzer benutzen.\n*   **Handys nicht im Gebäude benutzen:** Rufen Sie erst von außerhalb an.\n*   **Fenster und Türen öffnen:** Sorgen Sie für sofortige und maximale Belüftung, um das Gas zu verdünnen und abzuleiten.\n*   **Gashaupthahn schließen (falls sicher erreichbar):** Wenn der Haupthahn für die Gasversorgung leicht zugänglich ist und Sie ihn sicher erreichen können, drehen Sie ihn zu. Tun Sie dies nur, wenn Sie sich dabei nicht in Gefahr begeben.\n\n**3. Personen in Sicherheit bringen:**\n*   **Gebäude sofort verlassen:** Verlassen Sie umgehend das Gebäude. Helfen Sie anderen Anwesenden, ebenfalls das Gebäude zu verlassen.\n*   **Nachbarn warnen:** Informieren Sie Nachbarn im direkten Umfeld.\n*   **Sicherheitsabstand halten:** Begeben Sie sich in sicherer Entfernung zum Gebäude (mindestens 50-100 Meter).\n\n**4. Notruf tätigen – VON AUẞEN!**\n*   **Rufen Sie den Notruf 112 an** (Feuerwehr und Rettungsdienst).\n*   **Informieren Sie Ihren Gasversorger:** Notfallnummern der Gasversorger sind oft auf deren Websites oder in der Jahresabrechnung zu finden.\n*   **Geben Sie genaue Informationen:** Ort des Lecks (Adresse), Art des Geruchs, ob Personen betroffen sind oder Symptome zeigen (Übelkeit, Kopfschmerzen, Schwindel).\n\n**5. Nach der Evakuierung:**\n*   **Nicht zurückkehren:** Betreten Sie das Gebäude auf keinen Fall wieder, bevor die Feuerwehr oder der Gasversorger Entwarnung gegeben hat.\n*   **Anweisungen befolgen:** Halten Sie sich strikt an die Anweisungen der Einsatzkräfte.\n*   **Warten:** Bleiben Sie in sicherer Entfernung und warten Sie auf das Eintreffen der Rettungskräfte.\n\n**Zusammenfassend die wichtigsten Punkte:**\n1.  **Keine Zündquellen!**\n2.  **Fenster auf!**\n3.  **Raus aus dem Gebäude!**\n4.  **Von außen Hilfe rufen (112 und Gasversorger)!**\n5.  **Nicht zurückkehren, bevor Entwarnung gegeben wird!**",
+    "tokens": 362
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 59.679
+  }
+}

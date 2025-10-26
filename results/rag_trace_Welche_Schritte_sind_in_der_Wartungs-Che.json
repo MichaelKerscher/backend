@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-10-26T08:47:20",
+  "timestamp": "2025-10-26T10:18:19",
   "query": "Welche Schritte sind in der Wartungs-Checkliste für Pumpstation PS-100 enthalten?",
-  "latency_seconds": 13.065,
+  "latency_seconds": 17.471,
   "contexts": [
     {
       "rank": 1,
@@ -9,5 +9,5 @@
       "snippet": "checkliste_id: CHL_2025_001\ntitel: Routinewartung Pumpstation PS-100\nbereich: Netzbetrieb / Wasserförderung\ndatum: 2025-10-01\ndurchgeführt_von: [Techniker A, Techniker B]\nschritte:\n  - \"Sichtprüfung aller Rohrverbindungen auf Undichtigkeiten\"\n  - \"Ölstand des Pumpenmotors prüfen\"\n  - \"Drucksensor kalibrieren\"\n  - \"Sicherheitsventil testen\"\n  - \"Datenlogger überprüfen und Logdateien sichern\"\n  - \"B"
     }
   ],
-  "response": "Die Wartungs-Checkliste für Pumpstation PS-100 enthält folgende Schritte:\n\n*   Sichtprüfung aller Rohrverbindungen auf Undichtigkeiten\n*   Ölstand des Pumpenmotors prüfen\n*   Drucksensor kalibrieren\n*   Sicherheitsventil testen\n*   Datenlogger überprüfen und Logdateien sichern\n*   B"
+  "response": "Die Wartungs-Checkliste für Pumpstation PS-100 enthält folgende Schritte:\n\n*   Sichtprüfung aller Rohrverbindungen auf Undichtigkeiten\n*   Ölstand des Pumpenmotors prüfen\n*   Drucksensor kalibrieren\n*   Sicherheitsventil testen\n*   Datenlogger überprüfen und Logdateien sichern\n*   B (Dieser Schritt scheint unvollständig zu sein)"
 }

@@ -2,8 +2,8 @@
   "id": "Q4",
   "query": "Welche Fehlercodes sind in der Vorfallsliste 2025 aufgeführt?",
   "baseline_response": {
-    "test_id": "api_1761468559",
-    "timestamp": "2025-10-26T08:49:56",
+    "test_id": "api_1761474016",
+    "timestamp": "2025-10-26T10:20:43",
     "model": "gemini-2.5-flash",
     "client": "gemini",
     "input": {
@@ -11,16 +11,16 @@
       "prompt": "Welche Fehlercodes sind in der Vorfallsliste 2025 aufgeführt?"
     },
     "response": {
-      "text": "Als KI habe ich keinen Zugriff auf spezifische, interne oder zukünftige Dokumente wie eine \"Vorfallsliste 2025\". Solche Listen sind in der Regel unternehmensspezifisch, projektbezogen oder Teil einer noch nicht veröffentlichten Norm oder eines Standards.\n\nUm die in der \"Vorfallsliste 2025\" aufgeführten Fehlercodes zu erfahren, müssten Sie sich an die Stelle wenden, die diese Liste erstellt oder verwaltet (z.B. Ihre IT-Abteilung, das Projektmanagement, den Hersteller der Software/Hardware, für die diese Liste relevant ist).\n\nWenn Sie jedoch allgemeine Informationen zu Fehlercodes in einem bestimmten Kontext (z.B. für ein bestimmtes System, eine Software oder eine Branche) suchen, kann ich Ihnen dabei gerne helfen. Können Sie mir mehr Kontext geben? Um welche Art von System oder Anwendung handelt es sich?",
-      "tokens": 116
+      "text": "Als KI habe ich keinen Zugriff auf spezifische, zukünftige oder interne Dokumente wie eine \"Vorfallsliste 2025\". Meine Kenntnisse basieren auf Daten bis zu meinem letzten Trainingsstand und ich habe keinen Echtzeit-Zugriff auf Datenbanken oder zukünftige Veröffentlichungen.\n\nUm die Fehlercodes aus der Vorfallsliste 2025 zu erfahren, müssten Sie diese Liste selbst einsehen. Wenn Sie Zugang zu diesem Dokument haben, können Sie es überprüfen.\n\nFalls Sie die Liste vor sich haben und bestimmte Fehlercodes oder Abschnitte zur Analyse bereitstellen möchten, helfe ich Ihnen gerne dabei, diese zu interpretieren oder zu verstehen.",
+      "tokens": 89
     },
     "meta": {
       "status": "success",
-      "runtime_seconds": 36.502
+      "runtime_seconds": 26.571
     }
   },
-  "rag_response": "Als KI habe ich keinen Zugriff auf spezifische, zukünftige oder interne Dokumente wie eine \"Vorfallsliste 2025\".\n\nMein Wissen basiert auf Daten bis zu meinem letzten Update (meist bis Anfang 2023) und umfasst keine Echtzeitinformationen oder proprietäre Listen, die in der Zukunft erstellt werden könnten.\n\nUm Ihnen helfen zu können, müsste ich diese Liste sehen oder mehr Kontext dazu haben. Können Sie mir die Fehlercodes aus der Liste zur Verfügung stellen, wenn Sie Zugriff darauf haben, oder mir sagen, um welchen Kontext es sich handelt (z.B. Softwareprojekt, Hardware, branchenspezifisch)?",
-  "baseline_latency": 36.555,
-  "rag_latency": 35.82,
-  "timestamp": "2025-10-26T08:50:32.169939"
+  "rag_response": "Als KI habe ich leider keinen Zugriff auf spezifische oder interne Dokumente wie eine \"Vorfallsliste 2025\". Solche Listen sind in der Regel unternehmens- oder projektspezifisch und nicht öffentlich zugänglich.\n\nUm Ihnen helfen zu können, müssten Sie mir den Inhalt der Vorfallsliste zur Verfügung stellen. Dann könnte ich die darin aufgeführten Fehlercodes analysieren und Ihnen mitteilen.",
+  "baseline_latency": 26.626,
+  "rag_latency": 28.669,
+  "timestamp": "2025-10-26T10:21:11.942715"
 }

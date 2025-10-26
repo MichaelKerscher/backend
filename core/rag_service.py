@@ -33,6 +33,17 @@ def query_rag_engine(user_query: str) -> str:
             "snippet": ctx.text[:400]
         })
     
+    # print retrived context info 
+    print("Retrieved context")
+    if not contexts:
+        print("No context chunks retrived for this query.")
+    else:
+        for c in contexts:
+            print("f[{c['rank']}] Source:", c["source_uri"])
+            print("Snippet:\n", c["snippet"])
+            print("-" * 80)
+    print("End of Contexts=")
+
     # Step 2: Combine context for prompt    
     context_text = "\n\n".join([c["snippet"] for c in contexts])
 

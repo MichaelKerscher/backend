@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1761474016",
+  "timestamp": "2025-10-26T10:20:43",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": "Welche Fehlercodes sind in der Vorfallsliste 2025 aufgeführt?"
+  },
+  "response": {
+    "text": "Als KI habe ich keinen Zugriff auf spezifische, zukünftige oder interne Dokumente wie eine \"Vorfallsliste 2025\". Meine Kenntnisse basieren auf Daten bis zu meinem letzten Trainingsstand und ich habe keinen Echtzeit-Zugriff auf Datenbanken oder zukünftige Veröffentlichungen.\n\nUm die Fehlercodes aus der Vorfallsliste 2025 zu erfahren, müssten Sie diese Liste selbst einsehen. Wenn Sie Zugang zu diesem Dokument haben, können Sie es überprüfen.\n\nFalls Sie die Liste vor sich haben und bestimmte Fehlercodes oder Abschnitte zur Analyse bereitstellen möchten, helfe ich Ihnen gerne dabei, diese zu interpretieren oder zu verstehen.",
+    "tokens": 89
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 26.571
+  }
+}
