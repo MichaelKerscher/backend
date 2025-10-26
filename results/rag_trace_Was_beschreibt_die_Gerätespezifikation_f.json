@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-10-25T17:53:18",
+  "timestamp": "2025-10-26T08:49:19",
   "query": "Was beschreibt die Gerätespezifikation für den SmartMeter AQ-500?",
-  "latency_seconds": 31.703,
+  "latency_seconds": 34.485,
   "contexts": [
     {
       "rank": 1,
@@ -9,5 +9,5 @@
       "snippet": "geraet SmartMeter AQ-500\nhersteller Energex GmbH\ntyp Zähler für Wasser- und Energieverbrauch\nseriennummer AQ500-24-0911\nfirmware v3.2.1\nprotokoll MQTT / Modbus RTU\nnennspannung 230V AC\nmessbereich 0–100 m³/h\nzulassung EN 1434-1 / MID\nwartungsintervall_monate 12"
     }
   ],
-  "response": "Die Gerätespezifikation für den SmartMeter AQ-500 beschreibt folgende Merkmale:\n\n*   **Gerät:** SmartMeter AQ-500\n*   **Hersteller:** Energex GmbH\n*   **Typ:** Zähler für Wasser- und Energieverbrauch\n*   **Seriennummer:** AQ500-24-0911 (Beispiel)\n*   **Firmware:** v3.2.1\n*   **Protokolle:** MQTT / Modbus RTU\n*   **Nennspannung:** 230V AC\n*   **Messbereich:** 0–100 m³/h\n*   **Zulassungen:** EN 1434-1 / MID\n*   **Wartungsintervall:** 12 Monate"
+  "response": "Die Gerätespezifikation für den SmartMeter AQ-500 beschreibt ein Gerät des Herstellers Energex GmbH, das als Zähler für Wasser- und Energieverbrauch dient.\n\nHier sind die Details:\n\n*   **Gerät:** SmartMeter AQ-500\n*   **Hersteller:** Energex GmbH\n*   **Typ:** Zähler für Wasser- und Energieverbrauch\n*   **Firmware:** v3.2.1\n*   **Kommunikationsprotokolle:** MQTT / Modbus RTU\n*   **Nennspannung:** 230V AC\n*   **Messbereich:** 0–100 m³/h\n*   **Zulassungen:** EN 1434-1 / MID\n*   **Wartungsintervall:** 12 Monate"
 }

@@ -1,0 +1,18 @@
+{
+  "test_id": "api_1761468559",
+  "timestamp": "2025-10-26T08:49:56",
+  "model": "gemini-2.5-flash",
+  "client": "gemini",
+  "input": {
+    "type": "text",
+    "prompt": "Welche Fehlercodes sind in der Vorfallsliste 2025 aufgeführt?"
+  },
+  "response": {
+    "text": "Als KI habe ich keinen Zugriff auf spezifische, interne oder zukünftige Dokumente wie eine \"Vorfallsliste 2025\". Solche Listen sind in der Regel unternehmensspezifisch, projektbezogen oder Teil einer noch nicht veröffentlichten Norm oder eines Standards.\n\nUm die in der \"Vorfallsliste 2025\" aufgeführten Fehlercodes zu erfahren, müssten Sie sich an die Stelle wenden, die diese Liste erstellt oder verwaltet (z.B. Ihre IT-Abteilung, das Projektmanagement, den Hersteller der Software/Hardware, für die diese Liste relevant ist).\n\nWenn Sie jedoch allgemeine Informationen zu Fehlercodes in einem bestimmten Kontext (z.B. für ein bestimmtes System, eine Software oder eine Branche) suchen, kann ich Ihnen dabei gerne helfen. Können Sie mir mehr Kontext geben? Um welche Art von System oder Anwendung handelt es sich?",
+    "tokens": 116
+  },
+  "meta": {
+    "status": "success",
+    "runtime_seconds": 36.502
+  }
+}

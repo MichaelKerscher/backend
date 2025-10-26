@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-10-25T17:46:29",
+  "timestamp": "2025-10-26T08:44:33",
   "query": "Wie soll laut Notfallprozedur bei einem Gasleck vorgegangen werden?",
-  "latency_seconds": 24.832,
+  "latency_seconds": 24.723,
   "contexts": [
     {
       "rank": 1,
@@ -9,5 +9,5 @@
       "snippet": "STANDARD-ARBEITSANWEISUNG (SOP)\nDokument-ID: SOP_001\nTitel: Notfallprozedur bei Gasleck\nVersion: 1.0\nAbteilung: Betrieb / Außendienst\nGültig ab: 01.01.2025\n\nZweck:\nDiese Anweisung beschreibt das Vorgehen bei Verdacht auf ein Gasleck in Wasserwerken oder Heizungsanlagen, um Personen- und Sachschäden zu vermeiden.\n\nGeltungsbereich:\nGilt für alle Mitarbeitenden des Außendienstes sowie für Fremdfirmen"
     }
   ],
-  "response": "Laut dem vorliegenden Textfragment der Standard-Arbeitsanweisung (SOP) wird der **Zweck** der Anweisung beschrieben: Es soll das Vorgehen bei Verdacht auf ein Gasleck in Wasserwerken oder Heizungsanlagen schildern, um Personen- und Sachschäden zu vermeiden.\n\nEs wird auch der **Geltungsbereich** genannt (alle Mitarbeitenden des Außendienstes sowie Fremdfirmen).\n\n**Die konkreten Schritte oder das detaillierte Vorgehen bei einem Gasleck sind in dem hier bereitgestellten Textausschnitt jedoch nicht aufgeführt.** Der vorliegende Text enthält nur den Titel, den Zweck und den Geltungsbereich der SOP, nicht aber den Inhalt der Prozedur selbst."
+  "response": "Laut dem vorliegenden Auszug der Standard-Arbeitsanweisung (SOP) wird **nicht beschrieben, wie bei einem Gasleck vorgegangen werden soll**.\n\nDer bereitgestellte Text enthält lediglich:\n*   Die Dokument-ID, Titel, Version, Abteilung und Gültigkeitsdatum.\n*   Den **Zweck** der Anweisung: \"Diese Anweisung beschreibt das Vorgehen bei Verdacht auf ein Gasleck in Wasserwerken oder Heizungsanlagen, um Personen- und Sachschäden zu vermeiden.\"\n*   Den **Geltungsbereich**: \"Gilt für alle Mitarbeitenden des Außendienstes sowie für Fremdfirmen.\"\n\nDie eigentlichen Schritte der Notfallprozedur sind in diesem Auszug nicht enthalten."
 }
